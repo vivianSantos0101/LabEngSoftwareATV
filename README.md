@@ -12,7 +12,6 @@ Repositório de exercícios e atividades práticas da disciplina de Laboratório
 ![Git Flow](https://img.shields.io/badge/branching-git%20flow-F05032?style=flat-square&logo=git&logoColor=white)
 ![Conventional Commits](https://img.shields.io/badge/commits-conventional-FE5196?style=flat-square&logo=conventionalcommits&logoColor=white)
 ![Release](https://img.shields.io/github/v/tag/vivianSantos0101/LabEngSoftwareATV?style=flat-square&label=release)
-![Last commit](https://img.shields.io/github/last-commit/vivianSantos0101/LabEngSoftwareATV?style=flat-square)
 
 </div>
 
