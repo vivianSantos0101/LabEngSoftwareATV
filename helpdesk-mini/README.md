@@ -1,6 +1,6 @@
 # HelpDesk Mini
 
-**Aluna:** [SEU NOME COMPLETO]
+**Aluna:** [Vivian Maria Oliveira dos Santos]
 **Disciplina:** Laboratório de Engenharia de Software – Prof. Juan Hassam
 **Atividade:** Reposição das aulas de 14/09/2026 e 16/09/2026
 
