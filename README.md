@@ -63,14 +63,12 @@ Cada pacote possui uma classe `Main` com um cenário de uso demonstrativo.
 Atividade de reposição das aulas de 14/09/2026 e 16/09/2026. Implementa o núcleo de controle de chamados do laboratório de informática: abrir, listar, buscar, iniciar, resolver e cancelar chamados, com validação de campos e uma tabela fixa de transições de status.
 
 ```mermaid
-stateDiagram-v2
-    [*] --> aberto: abrir
-    aberto --> em_andamento: iniciar
-    em_andamento --> resolvido: resolver
-    aberto --> cancelado: cancelar
-    em_andamento --> cancelado: cancelar
-    resolvido --> [*]
-    cancelado --> [*]
+flowchart LR
+    inicio(( )) -- abrir --> A[aberto]
+    A -- iniciar --> B[em_andamento]
+    B -- resolver --> C[resolvido]
+    A -- cancelar --> D[cancelado]
+    B -- cancelar --> D
 ```
 
 | Camada | Arquivo | Responsabilidade |
